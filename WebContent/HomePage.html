@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Watershed UGA Data Management Portal</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <div id="navbar">
+  <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand" href="#">Watershed UGA Data Management</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/">Home</a>
+                </li>
+                <li><a href="viewData">View Water Quality Data</a>
+                </li>
+                <li><a href="viewMonitor">View Monitoring Point Data</a>
+                </li>
+                <li> <a href="addData">Add Water Quality Data</a>
+                </li>           
+           		<li> <a href="addMonitor">Add Monitoring Point Data</a>
+                </li>
+                <li> <a href="deleteData">Delete Water Quality Data</a>
+                </li>
+                <li><a href="https://watershed.uga.edu/">Watershed UGA</a>
+                </li>
+                <li><a href="/about-us">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </div>
+ </div>
+ <div class="header-image">
+	<p><img src="trailcreek.jpg" width="100%" height="auto"></p>
+ </div>
+</div>
+
+    <div class="container">
+
+      <div id="heading" class="page">
+        <h1>Watershed UGA Data Managment Portal</h1>
+        <p>Faculty, staff and students have been collecting data on UGA's streams for many
+         years. The streams serve as a natural laboratory for undergraduate classes like XX 
+         in which students collect YY to understand ZZ [Scott: can you fill in a specific example]. 
+         Some graduate courses conduct more in-depth studies; for example, graduate students 
+         in Amy Rosemond's Freshwater Ecosystems course have been monitoring numerous water 
+         quality parameters in Lake Herrick for the past three years, and using these data 
+         as the basis for annual reports.</p><br>
+         <p>As part of Watershed UGA Susan Wilde has expanded Lake Herrick monitoring, and a 
+         group of faculty and students led by John Dowd, Todd Rasmussen and David Radcliffe have 
+         established a set of real-time monitoring stations on the tributaries and outlet of the 
+         lake. The custom-designed instruments collect data on stream flow, temperature, conductivity,
+          and other parameters and automatically upload it to campus computers. Watershed UGA intends 
+          to expand this monitoring network to other campus streams, including Lily Branch 
+          and Tanyard Branch. </p><br>
+          <p>This web site is intended to provide access to all of the types of data collected 
+          on campus streams, from intermittent student-collected samples to continuous real-time data. 
+          This site is a work in progress and data will be added periodically for several years starting 
+          in 2017. </p>
+      	
+      </div>
+     
+
+    </div><!-- /.container -->
+    
+   <div id="veiw">
+				<input class ="button" type="button" value="View Data">
+				<input class ="button" type="button" formaction="AddForm.jsp" value="Add Data"> 
+				<input class ="button" type="button" value="Watershed UGA HomePage">
+				</div>
+				<div id="login">
+				<br><input class ="button" type="button" value="Login"><br>
+				</div>
+			
+	</div><!-- /end .section.body -->
+	
+	<div class="footer">
+		<p>Watershed UGA 2017 <br><img src="georgia.png" alt="" width="70px" height="auto" /> </br></p>
+		
+	</div>	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!--Included to ensure the mobile drop down menu works properly -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
